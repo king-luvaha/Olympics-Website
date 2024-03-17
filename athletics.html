@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>XXVI Youth Olympic Games</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/kenyaolympic.jpeg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="venue.html">VENUE</a></li>
+                        <li><a href="athletics.html">ATHLETICS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="feedback.html">FEEDBACK</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Athletics</h1>
+        </section>
+
+        <!--Grid image gallery-->
+
+        <main class="main">
+            <section class="info1">
+                <h2>Athletes</h2>
+                <p>Kenya first participated at the Olympic Games in 1956, and has sent athletes to compete in every Summer Olympic Games since then, except for the boycotted 1976 and 1980 Games. Kenya participated in the Winter Olympic Games in 1998, 2002, 2006 and 2018.Kenyan athletes have won 103 medals in total, all from boxing and track and field events, making them the most successful African committee at the Olympics.</p>
+                <a href="https://en.wikipedia.org/wiki/Kenya_at_the_Olympics" class="info-link">Learn More</a>
+            </section>
+    
+            <figure class="figure1">
+                <img src="images/olympic1.webp" class="figure-img">
+            </figure>
+    
+            <figure class="figure2">
+                <img src="images/olympic2.webp" class="figure-img">
+            </figure>
+    
+            <figure class="figure3">
+                <img src="images/olympic3.webp" class="figure-img">
+            </figure>
+    
+            <figure class="figure4">
+                <img src="images/olympic4.webp" class="figure-img">
+            </figure>
+    
+            <figure class="figure5">
+                <img src="images/olympic5.jpg" class="figure-img">
+            </figure>
+    
+            <figure class="figure6">
+                <img src="images/olympic6.jpg" class="figure-img">
+            </figure>
+    
+            <section class="info2">
+                <h2>Medals Won</h2>
+                <p>In terms of total medals won, the most recent Summer Olympics (2008, 2012, and 2016) have been Kenya's most successful, producing 42 medals between them. The number of Kenyan women winning Olympic medals has risen dramatically, from their first in 1996 to more than half the Kenyan medals in 2016 (seven). Increasingly, Kenya-born athletes are immigrating to compete in the Olympics for other countries, most notably Bahrain. In the 2016 Olympics, there were ~20 such athletes, including multiple medal winners.</p>
+                <a href="https://en.wikipedia.org/wiki/Kenya_at_the_Olympics#Medal_tables" class="info-link">Learn More</a>
+            </section>
+    
+            <figure class="figure7">
+                <img src="images/olympic7.jpg" class="figure-img">
+            </figure>
+    
+            <figure class="figure1">
+                <img src="images/olympic8.jpg" class="figure-img">
+            </figure>
+        </main>
+
+        <!--------JavaScript for ToggleMenu for 'Smaller Devices e.g Phones'----------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
